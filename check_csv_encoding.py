@@ -2,7 +2,7 @@ import os
 import glob
 import chardet
 
-path = input('pathを入力:') 
+path = input('input a csv_file path:')
 os.chdir(path)
 
 csv_files = glob.glob('*.csv')
